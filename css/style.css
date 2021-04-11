@@ -1,0 +1,457 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+
+html {
+  font-family: "Poppins", sans-serif;
+  font-size: 10px;
+  box-sizing: border-box;
+  margin: 0%;
+  padding: 0%;
+}
+
+/* ######################################### nav styling ####################################### */
+.navh {
+  height: 18vh;
+  background-color: #f44336;
+  margin: -1rem;
+}
+.nav-container {
+  padding-left: 4% !important;
+  display: flex;
+  height: 100%;
+  justify-content: flex-start;
+
+  align-items: center;
+}
+.nav {
+  background: #f44336;
+  position: relative;
+  top: 0%;
+  left: 0%;
+  color: #ffffff;
+  height: 110vh;
+  padding: 0%;
+  margin: 0%;
+  font-size: 1.8rem;
+  display: flex;
+  position: fixed;
+  flex-direction: column;
+  justify-content: flex-start;
+  font-weight: 600;
+  margin: -0.8rem;
+  width: 300px;
+  z-index: 99;
+  margin-bottom: 10rem;
+}
+.nav ul {
+  list-style: none;
+  margin-top: 4rem;
+}
+
+.nav a {
+  margin-right: 1rem;
+  display: block;
+  width: 200px;
+  margin-left: -1rem;
+  padding: 0.8rem 1.6rem;
+}
+.nav a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.nav .company-name {
+  margin: 0%;
+  /* background-color: brown; */
+  font-size: 2.8rem;
+  padding-left: 4rem;
+}
+.nav .company-name {
+  margin-top: 3em;
+}
+.nav a:hover {
+  background-color: #ffffff;
+  color: black;
+}
+.nav a:hover {
+  color: black;
+}
+.navh {
+  display: none;
+}
+
+/* ########################### utility classes ################################ */
+.container {
+  margin-left: 300px;
+  /* border: green 2px solid; */
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+.headings {
+  color: #f44336;
+  font-weight: 600;
+  font-size: 5rem;
+  display: block;
+  border-bottom: #f44336 0.8rem solid;
+}
+.span {
+  width: 100%;
+}
+.text-gray {
+}
+.text {
+  font-size: 1.6rem;
+}
+.packages .table .pro-list .bg-red {
+  background: #f44336;
+  color: #ffffff;
+  padding: 3.2rem 1.6rem !important;
+  font-size: 2.6rem;
+}
+.packages .table .basic-list .bg-gray {
+  background: rgba(0, 0, 0, 0.651);
+  color: #ffffff;
+  padding: 3.2rem 1.6rem !important;
+  font-size: 2.6rem;
+}
+.packages .table .border-none {
+  border-bottom: none;
+}
+
+/* ########################### home styling ################################### */
+.home p {
+  font-size: 3rem;
+  margin: 0%;
+  margin-top: 8rem;
+  font-weight: 500;
+}
+.home h1 {
+  font-size: 6.4rem;
+  margin: 0%;
+  font-weight: 500;
+}
+.home {
+  padding-left: 4.5%;
+}
+
+/* ######################### showcase styling ################################## */
+.showcase p {
+  margin: 1.5rem 1.8rem;
+}
+.showcase-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 5rem;
+}
+.showcase-container .img1 {
+  height: 35rem;
+  width: 46%;
+  object-fit: cover;
+  margin: 0.6rem;
+}
+.showcase-container .img2 {
+  height: 25rem;
+  width: 46%;
+  object-fit: cover;
+  margin: 0.6rem;
+}
+.showcase-container .img3 {
+  height: 25rem;
+  width: 46%;
+  object-fit: cover;
+  margin: 0.6rem;
+  object-position: bottom;
+}
+
+/* ################################ services styling ################################# */
+.services p {
+  margin: 1.5rem 1.8rem;
+}
+
+.services {
+  margin-bottom: 5rem;
+}
+
+/* ################################# designers styling ################################ */
+.designers p {
+  margin: 1.5rem 1.8rem;
+}
+.designer-wrapper {
+  margin: 1.5rem 1.8rem;
+  display: flex;
+  justify-content: space-between;
+}
+.designers {
+  margin-bottom: 5rem;
+}
+.designers .designer-person {
+  width: 30%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  /* border: rgb(138, 138, 138) 5px solid; */
+}
+.designer-person .img {
+  width: 100%;
+}
+.designer-person .img1 {
+  height: 30rem;
+  width: 100%;
+  object-position: top;
+  object-fit: cover;
+}
+.designer-person .img2 {
+  height: 30rem;
+  width: 100%;
+  object-position: center;
+  object-fit: cover;
+}
+.designer-person .photo-text {
+  background-color: rgba(0, 0, 0, 0.185);
+}
+.photo-text .name {
+  font-size: 2.4rem;
+}
+.photo-text .designation {
+  font-size: 1.6rem;
+  color: #444444;
+}
+
+/* ################################# packages styling ##################################### */
+
+.packages p {
+  margin: 1.5rem 1.8rem;
+}
+.packages li {
+  list-style: none;
+  font-size: 1.6rem;
+  background-color: #f1f1f1;
+  border-bottom: 1px #4444443f solid;
+  text-align: center;
+  padding: 1.6rem;
+}
+.packages ul {
+  padding: 0%;
+}
+.packages p {
+  margin: 0%;
+}
+.packages .table {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.packages .list {
+  width: 49%;
+}
+.packages .basic-list {
+  /* padding-left: -4rem!important; */
+}
+.list .price {
+  font-size: 3rem;
+}
+.list .price-after {
+  color: #444444ab;
+}
+.packages {
+  margin-bottom: 5rem;
+  width: 69%;
+  padding-left: 4%;
+}
+.pro-list button {
+  display: block;
+  /* width: 100%; */
+  padding: 1rem;
+  /* margin-right: 8rem; */
+  border: #f44336;
+  color: #ffffff;
+  text-align: center;
+  margin-left: 41%;
+  margin-right: 40%;
+  font-size: 1.6rem;
+  font-weight: 500;
+  background-color: #f44336;
+}
+
+.list button:hover {
+  cursor: pointer;
+  background-color: black !important;
+  color: #ffffff;
+}
+.basic-list button {
+  display: block;
+  /* width: 100%; */
+  padding: 1rem;
+  /* margin-right: 8rem; */
+  border: rgba(0, 0, 0, 0.651);
+  color: #ffffff;
+  text-align: center;
+  margin-left: 41%;
+  margin-right: 40%;
+  font-size: 1.6rem;
+  font-weight: 500;
+  background-color: rgba(0, 0, 0, 0.651);
+}
+
+/* ################################ contact styling ################################ */
+.contact .form {
+  margin-bottom: 0%;
+}
+.contact input {
+  display: block;
+  width: 98%;
+  padding: 0.8rem;
+  margin-right: 8rem;
+  margin-bottom: 1.5rem;
+}
+.contact button {
+  display: block;
+  width: 100%;
+  padding: 1rem;
+  margin-right: 8rem;
+  border: #f44336;
+  color: #ffffff;
+  font-size: 1.6rem;
+  font-weight: 500;
+  background-color: #f44336;
+}
+.contact {
+  margin-bottom: 8rem;
+  padding-left: 4%;
+  width: 69%;
+}
+
+/* ####################################3 footer styling ##################################### */
+footer {
+  padding: 4rem;
+  background: rgba(0, 0, 0, 0.801);
+  margin-right: -1rem;
+  margin-bottom: -1rem;
+  color: #ffffff;
+  font-weight: 300;
+  text-align: center;
+  padding-left: 35rem;
+}
+.contact button:hover {
+  background-color: black;
+  border: black;
+  color: #ffffff;
+}
+
+/* ############################################################################################# */
+/* ###################################### media querries ####################################### */
+/* ############################################################################################# */
+
+@media (max-width: 950px) {
+  /* .designer-wrapper{
+        flex-direction: column;
+        justify-content: center;
+    } */
+  .nav {
+    display: none;
+  }
+  .navh {
+    display: block;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 3rem;
+  }
+  .navh h3 {
+    margin: 0%;
+    padding: 0%;
+  }
+  .container {
+    padding: 0%;
+    margin: 0%;
+    width: 90%;
+    margin: 0 5%;
+  }
+  .home {
+    padding: 0rem;
+    padding-left: 2.2%;
+  }
+  .showcase .showcase-container {
+    width: 98%;
+    padding-left: 1%;
+  }
+  .showcase {
+    padding: 0rem;
+  }
+  .services {
+    padding: 0rem;
+    margin-bottom: 5rem;
+  }
+  .packages {
+    /* padding: 0rem; */
+    padding: 0 2%;
+    /* padding-right: 10%!important; */
+    width: 86%;
+  }
+  .contact {
+    padding: 0rem;
+    padding: 0% 2%;
+    width: 86%;
+  }
+  .designers {
+    padding: 0rem;
+    margin-bottom: 5rem;
+  }
+  .contact {
+    margin-bottom: 5rem;
+  }
+  footer {
+    padding-left: 0%;
+  }
+  .contact input {
+    width: 96.5%;
+  }
+}
+
+@media (max-width: 640px) {
+  .designer-wrapper {
+    flex-direction: column !important;
+    justify-content: center;
+    align-items: center;
+  }
+  .designer-person {
+    width: 70% !important;
+    margin-bottom: 3rem;
+  }
+}
+@media (max-width: 450px) {
+  .text {
+    font-size: 1.5rem !important;
+  }
+  .showcase-container {
+    flex-direction: column;
+  }
+  .showcase-container img {
+    width: 91% !important;
+  }
+  .packages .list li {
+    font-size: 1.4rem !important;
+  }
+  .contact input {
+    width: 93.5% !important;
+    /* margin-right: 50%!important; */
+  }
+  footer {
+    margin-left: -1rem;
+    /* text-align: center; */
+    padding-left: 10%;
+  }
+  .contact .text5 {
+    margin-top: -3.5rem;
+  }
+  .home {
+    padding-left: 6%;
+  }
+  .logo h3 {
+    font-size: 3rem;
+  }
+  .nav-container {
+    margin-left: 8%;
+  }
+}
